@@ -1,0 +1,69 @@
+1. Authentication
+
+a. sign up - register
+b. sign in - login
+
+a. Sign yp/register
+ 1.Email
+ 2.password
+ ---abc@masai.com--//check if the mail is already registered, if yes, throw error.
+
+ b.Login/Sign in
+ 1. Email -- check if the email exits/register
+ 2. password -- check password is right or wrong
+
+
+ 2. we wont store pwd in plain text, w'll either Encrypt or hash it;
+ email and password, can we just store the email and password
+ suhaib@gmail.com suhaib123
+ {
+     email:suhaib@gmail.com,
+     password:suhaib123mm - plain text
+ }
+
+3. Tokens - server will send the token; -- external library jsonwebtoken
+token --> abcd --> verifies --> we let the user in/perform
+
+
+
+
+
+
+4.......
+Authorisation- verifying what is access they have;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ hashing --> you wont be able to decrypt it;
+ suhaib --> fnerngfunr
+
